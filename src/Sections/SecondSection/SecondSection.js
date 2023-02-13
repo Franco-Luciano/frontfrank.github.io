@@ -25,7 +25,7 @@ function SecondSection({ lenguage }) {
             <div className="SecondSection-container">
                 <div className="SecondSection-container_top">
                     <div className="SecondSection-container_top-left">
-                        <img src={ProfilePicture} className="SecondSection-container_top-left_image"></img>
+                        <img alt="profile selfie of Franco" src={ProfilePicture} className="SecondSection-container_top-left_image"></img>
                         <div className="SecondSection-container_top-left-information">
                             <h2 className="SecondSection-container_top-left-information_name" >Franco Carlomagno</h2>
                             <h4 className="SecondSection-container_top-left-information_alias" >{lenguage ? "“The developer”" : "“El desarrollador”"}</h4>
@@ -42,7 +42,7 @@ function SecondSection({ lenguage }) {
                     <div onScroll={handleScroll} className="SecondSection-container_bottom-textContainer">
                         <p className="SecondSection-container_bottom-textContainer-description" style={{ whiteSpace: 'pre-wrap' }}>{lenguage ? descriptionEnglish : descriptionSpanish}</p>
                     </div>
-                    {!isAtBottom ? <img src={TextArrow} className="SecondSection-container_bottom-arrow SecondSection-container_bottom-arrow-animate-arrow" /> : <span style={{
+                    {!isAtBottom ? <img alt="continue text arrow" src={TextArrow} className="SecondSection-container_bottom-arrow SecondSection-container_bottom-arrow-animate-arrow" /> : <span style={{
                         width: "15px",
                         height: "17px",
                         display: "block",
@@ -52,7 +52,7 @@ function SecondSection({ lenguage }) {
                 </div>
                 <hr className="SecondSection_bottomBorder" />
             </div>
-            <img className="SecondSection_downArrow" src={DownArrow} />
+            <img alt="bottom arrow gif" className="SecondSection_downArrow" src={DownArrow} />
         </section >
     );
 }

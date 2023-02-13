@@ -34,7 +34,7 @@ function FourthSection({ lenguage }) {
                 <input className="FourthSection_formContainer-middle" placeholder='Subject' name="user_subject" />
                 <label>Message</label>
                 <textarea className="FourthSection_formContainer-bottom" placeholder='Content' name="message" />
-                {sended ? <img className="FourthSection_send" src={sendCheck} /> : <input className="FourthSection_button" type="submit" value="Send" />}
+                {sended ? <img alt="check symbol pixelart" className="FourthSection_send" src={sendCheck} /> : <input className="FourthSection_button" type="submit" value="Send" />}
             </form><span /></> :
                 <>
                     <h2 className="FourthSection_title">CONTACTO</h2><form className="FourthSection_formContainer" ref={form} onSubmit={sendEmail}>
@@ -44,7 +44,7 @@ function FourthSection({ lenguage }) {
                         <input className="FourthSection_formContainer-middle" placeholder='Asunto' name="user_subject" />
                         <label>Message</label>
                         <textarea className="FourthSection_formContainer-bottom" placeholder='Contenido' name="message" />
-                        {sended ? <img className="FourthSection_send" src={sendCheck} /> : <input className="FourthSection_button" type="submit" value="ENVIAR" />}
+                        {sended ? <img alt="check symbol pixelart" className="FourthSection_send" src={sendCheck} /> : <input className="FourthSection_button" type="submit" value="ENVIAR" />}
                     </form><span />
                 </>}
         </section >

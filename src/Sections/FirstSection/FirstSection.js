@@ -14,7 +14,7 @@ function FirstSection({ lenguage }) {
                 <div className='FirstSection-downContainer-container_image'>
                     <div className="FirstSection-downContainer-container_dialogue">
                         <p>Rest here weary traveler</p>
-                        <img src={DotsTyping} />
+                        <img alt="ellipses gift" src={DotsTyping} />
                     </div>
                 </div>
             </div></> : <><span className="FirstSection_top" /><div className='FirstSection-downContainer'>
@@ -26,12 +26,12 @@ function FirstSection({ lenguage }) {
                 <div className='FirstSection-downContainer-container_image'>
                     <div className="FirstSection-downContainer-container_dialogue">
                         <p>Descansa aquí, viajero exhausto</p>
-                        <img src={DotsTyping} />
+                        <img alt="ellipses gift" src={DotsTyping} />
                     </div>
                 </div>
             </div></>
             }
-            <img className="FirstSection_downArrow" src={DownArrow} />
+            <img alt="down arrow gift" className="FirstSection_downArrow" src={DownArrow} />
         </section>
     );
 }
