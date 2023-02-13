@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/frontfrank.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/frontfrank.github.io/static/js/main.0785400f.js",
-    "static/js/787.1ed0c42c.chunk.js": "/frontfrank.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/frontfrank.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/frontfrank.github.io/static/css/main.3434319c.css",
+    "main.js": "/frontfrank.github.io/static/js/main.30b7ffaf.js",
+    "static/media/HollowKnight.gif": "/frontfrank.github.io/static/media/HollowKnight.19f423f9028a9ad29a4b.gif",
+    "static/media/ProfilePicture.png": "/frontfrank.github.io/static/media/ProfilePicture.30d07e407823ffb67d8f.png",
+    "static/media/DownArrow.gif": "/frontfrank.github.io/static/media/DownArrow.8830b6f3502b87cb214d.gif",
     "index.html": "/frontfrank.github.io/index.html",
-    "main.073c9b0a.css.map": "/frontfrank.github.io/static/css/main.073c9b0a.css.map",
-    "main.0785400f.js.map": "/frontfrank.github.io/static/js/main.0785400f.js.map",
-    "787.1ed0c42c.chunk.js.map": "/frontfrank.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.3434319c.css.map": "/frontfrank.github.io/static/css/main.3434319c.css.map",
+    "main.30b7ffaf.js.map": "/frontfrank.github.io/static/js/main.30b7ffaf.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0785400f.js"
+    "static/css/main.3434319c.css",
+    "static/js/main.30b7ffaf.js"
   ]
 }
