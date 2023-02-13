@@ -70,7 +70,7 @@ function ToolSquare({ lenguage, color, type, image, fontSize, imageHeight, image
             imageStats = acctLogo;
             break;
         default:
-            imageStats = "";
+            imageStats = ``;
     }
     return (
         <div className="ToolSquare">
