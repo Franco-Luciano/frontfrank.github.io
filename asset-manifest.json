@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/frontfrank.github.io/static/css/main.3434319c.css",
-    "main.js": "/frontfrank.github.io/static/js/main.30b7ffaf.js",
+    "main.js": "/frontfrank.github.io/static/js/main.e182e428.js",
     "static/media/HollowKnight.gif": "/frontfrank.github.io/static/media/HollowKnight.19f423f9028a9ad29a4b.gif",
     "static/media/ProfilePicture.png": "/frontfrank.github.io/static/media/ProfilePicture.30d07e407823ffb67d8f.png",
     "static/media/DownArrow.gif": "/frontfrank.github.io/static/media/DownArrow.8830b6f3502b87cb214d.gif",
     "index.html": "/frontfrank.github.io/index.html",
     "main.3434319c.css.map": "/frontfrank.github.io/static/css/main.3434319c.css.map",
-    "main.30b7ffaf.js.map": "/frontfrank.github.io/static/js/main.30b7ffaf.js.map"
+    "main.e182e428.js.map": "/frontfrank.github.io/static/js/main.e182e428.js.map"
   },
   "entrypoints": [
     "static/css/main.3434319c.css",
-    "static/js/main.30b7ffaf.js"
+    "static/js/main.e182e428.js"
   ]
 }
