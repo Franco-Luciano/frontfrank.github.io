@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import React from 'react';
+import FirstSection from './Sections/FirstSection/FirstSection';
+import SecondSection from './Sections/SecondSection/SecondSection';
+import ThirdSection from './Sections/ThirdSection/ThirdSection';
+import FourthSection from './Sections/FourthSection/FourthSection';
 function App() {
+  const [lenguage, setLenguage] = React.useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <><div className="App-topContainer">
+      <h1 className="App-topContainer_name">Frontfrank.com</h1>
+      <div className="App-topContainer-right">
+        <div onClick={() => setLenguage(prevValue => false)} className={`App-topContainer-right${lenguage ? "_rightContainer" : "_leftContainer"}`}><h4>esp</h4></div>
+        <div onClick={() => setLenguage(prevValue => true)} className={`App-topContainer-right${lenguage ? "_leftContainer" : "_rightContainer"}`}><h4>eng</h4></div>
+      </div>
+    </div><FirstSection lenguage={lenguage} />
+      <SecondSection lenguage={lenguage} />
+      <ThirdSection lenguage={lenguage} />
+      <FourthSection lenguage={lenguage} />
+    </>
   );
 }
-
 export default App;
